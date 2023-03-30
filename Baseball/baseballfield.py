@@ -1,3 +1,5 @@
+import math
+
 # Fielding statistics
 # A – Assists: number of outs recorded on a play where a fielder touched the ball, except if such touching is the putout
 # CI – Catcher's Interference (e.g., catcher makes contact with bat)
