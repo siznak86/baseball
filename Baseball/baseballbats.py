@@ -26,7 +26,7 @@ fc =                # FC – Fielder's choice: times reaching base safely becaus
 go =                # GO - Ground ball out 
 fo =                # FO - Fly ball out
 gopfo = go / fo     # GO/AO – Ground ball fly ball ratio: number of ground ball outs divided by number of fly ball outs
-gdp =              # GDP or GIDP – Ground into double play: number of ground balls hit that became double plays
+gdp =               # GDP or GIDP – Ground into double play: number of ground balls hit that became double plays
 # GPA – Gross production average: 1.8 times on-base percentage plus slugging percentage, divided by four
 gds =               # GS – Grand slam: a home run with the bases loaded, resulting in four runs scoring, and four RBIs credited to the batter
 hbp =               # HBP – Hit by pitch: times touched by a pitch and awarded first base as a result

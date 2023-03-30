@@ -6,7 +6,7 @@ l =                 # L - Loss: number of games where pitcher was pitching while
 g =                 # G – Games (AKA "appearances"): number of times a pitcher pitches in a season
 ip =                # IP – Innings pitched: the number of outs a team gets while a pitcher is pitching divided by 3
 bba =                # BB – Base on balls (also called a "walk"): times pitching four balls, allowing the batter to take first base
-bbpn = (bb * 9) / ip        # BB/9 – Bases on balls per 9 innings pitched: base on balls multiplied by nine, divided by innings pitched
+bbpn = (bba * 9) / ip        # BB/9 – Bases on balls per 9 innings pitched: base on balls multiplied by nine, divided by innings pitched
 bf =                # BF – Total batters faced: opponent team's total plate appearances
 bk=                 # BK – Balk: number of times pitcher commits an illegal pitching action while in contact with the pitching rubber as judged by umpire, resulting in baserunners advancing one base
 bs=                 # BS – Blown save: number of times entering the game in a save situation, and being charged the run (earned or not) which eliminates his team's lead
@@ -44,7 +44,7 @@ pc = # PIT (or NP) – Pitches thrown (Pitch count)
 pfr = (k + bba) / ip        # PFR – Power finesse ratio: The sum of strikeouts and walks divided by innings pitched.
 # pNERD – Pitcher's NERD: expected aesthetic pleasure of watching an individual pitcher
 # QOP – Quality of pitch: comprehensive pitch evaluation statistic which combines speed, location and movement (rise, total break, vertical break and horizontal break) into a single numeric value
-# QS – Quality start: a game in which a starting pitcher completes at least six innings and permits no more than three earned runs
+qs =                # QS – Quality start: a game in which a starting pitcher completes at least six innings and permits no more than three earned runs
 r =                 # Runs
 ra = (r * 9) / ip           # RA – Run average: number of runs allowed times nine divided by innings pitched
 sho =               # SHO – Shutout: number of complete games pitched with no runs allowed
