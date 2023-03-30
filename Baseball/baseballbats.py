@@ -41,8 +41,8 @@ ops = obp + slg     # OPS – On-base plus slugging: on-base percentage plus slu
 pa =                # PA – Plate appearance: number of completed batting appearances
 papso = pa / so     # PA/SO – Plate appearances per strikeout: number of times a batter strikes out to their plate appearance
 tb = [single + (2 * double) + (3 * triple) + (4 * hr)]           # TB – Total bases: one for each single, two for each double, three for each triple, and four for each home run [H + 2B + (2 × 3B) + (3 × HR)] or [1B + (2 × 2B) + (3 × 3B) + (4 × HR)]
-tob = (h + bb + hbp)     # TOB – Times on base(Touched Base): times reaching base as a result of hits, walks, and hit-by-pitches (H + BB + HBP)
-xbh = (double + triple + hr)        # XBH – Extra base hits: total hits greater than singles (2B + 3B + HR)
+tob = (h + bb + hbp)                                             # TOB – Times on base(Touched Base): times reaching base as a result of hits, walks, and hit-by-pitches (H + BB + HBP)
+xbh = (double + triple + hr)                                     # XBH – Extra base hits: total hits greater than singles (2B + 3B + HR)
 bbp = bb / pa       # BB% - Walk percentage: Base on balls per plate apperance
 sop = so / pa       # SO% - Strike out percentage: Strike out per plate apperance
 
